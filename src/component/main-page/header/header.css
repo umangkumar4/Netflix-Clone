@@ -1,0 +1,64 @@
+header{
+    height:110vh;
+    /* background-image:url('https://www.iconvsicon.com/wp-content/uploads/2021/06/DontBreathe2-2021.jpg'); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 12px 4px rgba(248, 245, 245, 0.9);
+    background:linear-gradient(180deg,transparent);
+}
+header img{
+    height:100%;
+    width:100%;
+    font-size: 5rem;
+}
+.class_content{
+    margin-left:5vw;
+    padding-top:15vw;
+}
+.header_billboard{
+    /* height:24vw; */
+    object-fit:cover;
+}
+.billboard{
+    height:25vh;
+    width:45vw;
+}
+.header_description{
+    width:50%;
+    color:white;
+    font-size: 1.1vw;
+    font-weight: 500;
+    text-shadow:2px 2px 4px #ad252500;  
+}
+.header_buttons{
+    padding-top:2vw;
+    display:flex;
+    margin-left:10px;
+}
+.button{
+    margin-left: 10px;
+    height: 6vh;
+    width:9%;
+    border:none;
+    border-radius:  4px;
+    font-size: 1.2vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.play_button{
+    background-color: aliceblue;
+    
+}
+.more_info_button{
+     background-color: rgb(77, 73, 73);  
+     color:white;
+}
+
+.button:hover{
+    cursor:pointer;
+    
+    /* background-color: rgb(247, 245, 243); */
+}

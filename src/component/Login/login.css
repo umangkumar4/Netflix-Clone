@@ -1,0 +1,106 @@
+.full-widths{
+    height: 100vh;
+    width:100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    background: linear-gradient(180deg,transparent);
+}
+.logos{
+    height:8rem;
+    width: 12rem;
+    padding-left:3.5rem;
+}
+.login-container{
+    height:75vh;
+    width:28vw;
+    background-color: aliceblue;
+    position: relative;
+    top:1%;
+    left:36%;
+    background:rgba(0,0,0,0.7);
+    color:white;
+    border-radius: 4px;;
+}
+.sign-text{
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin:7px 10px 10px 50px;
+    padding-top: 2rem;;
+}
+.input-pass{
+    height:30vh;
+    width:20vw;
+    margin-left:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.pass{
+    margin-top: -20px;
+}
+.common{
+ font-size: 0.9rem;
+ padding:15px;
+ border-radius: 4px;
+ border:none;
+ outline:none;
+ background-color: rgb(47, 47, 47);
+ color:white;
+}
+.signInBtn{
+    background-color: rgb(240, 43, 43);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.signInBtn:hover{
+    background-color: rgb(174, 16, 16);
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+.remember-help{
+    margin-left:50px;
+    width:20vw;
+    display:flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color:rgb(131, 127, 127);
+}
+.new-to-netflix{
+    margin-top: 70px;;
+    margin-left:50px;
+    width:20vw;
+    color:rgb(131, 127, 127);
+    font-weight: 600;
+}
+
+.learn-mores{
+    margin-left:50px;
+    width:20vw;
+    font-size: 0.8rem;
+    color:rgb(131, 127, 127);
+}
+.text-error{
+    margin-left:50px;
+    width:20vw;
+    font-size: 1.4rem;
+    color:rgb(229, 14, 14);
+}
+.b{
+    text-decoration: none;
+     color: rgb(131, 127, 127);
+}
+.c{
+    text-decoration: none;
+     color: white;
+}
+.d{
+    text-decoration: none;
+     color: rgb(6, 107, 230);
+}
+.Invalid-Email{
+    margin:2px;
+    padding-bottom: 15px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color:rgb(249, 99, 99)
+}
