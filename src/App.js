@@ -9,7 +9,7 @@ import Headerlogin from "./component/headerlogin/Headerlogin";
 import Login from "./component/Login/Login";
 import MainPage from "./component/main-page/MainPage";
 axios.defaults.baseURL = "http://api.themoviedb.org/3";
-axios.defaults.params = { api_key: "6657b5a769d7444131a198edfcbae534" };
+axios.defaults.params = { api_key: "d95b5b460fb6e77d5457ce11bd6f69cf" };
 
 function App() {
   return (
